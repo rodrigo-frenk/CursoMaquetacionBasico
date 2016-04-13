@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- html>head+body -->
+<html>
+   <head>
+      <!-- meta[charset=utf-8] -->
+      <meta charset="utf-8">
+      <title>
+         Ejemplo Completo
+      </title>
+
+      <style>
+         /* Selector por etiqueta */
+         div {
+            outline: 1px solid blue;
+            padding: 50px;
+            font-size: 30px;
+         }
+
+         /* Selector por identidad */
+         #caja1 {
+            color: red;
+            background-color: yellow;
+         }
+
+         #caja2 {
+            color: green;
+            background-color: blue;
+         }
+
+         /* Selector por clase */
+
+         .caja {
+            /* bxsh */
+            box-shadow: 2px 2px 2px black;
+         }
+
+         .mitad {
+            /* w50% */
+            width: 50%;
+            /* fl */
+            float: left;
+
+            box-sizing: border-box;
+
+         }
+
+         body {
+            margin:0;
+         }
+      </style>
+
+   </head>
+   <body>
+
+      <!-- #caja1.caja{Una caja} -->
+      <!-- #caja2.caja{Una caja} -->
+      <div id="caja1" class="caja mitad">Una caja</div>
+      <div id="caja2" class="caja mitad">Una caja</div>
+
+      <!-- .mitad{Nombre de Caja $}*6 -->
+      <div class="mitad">Nombre de Caja 1</div>
+      <div class="mitad">Nombre de Caja 2</div>
+      <div class="mitad">Nombre de Caja 3</div>
+      <div class="mitad">Nombre de Caja 4</div>
+      <div class="mitad">Nombre de Caja 5</div>
+      <div class="mitad">Nombre de Caja 6</div>
+
+      <script src="jquery-1.12.3.min.js"></script>
+
+      <script>
+
+         $(document).ready( function() {
+
+            $('#caja1').click(function() {
+
+
+                  $('#caja2').css({ backgroundColor: 'red' });
+
+                  $('.caja').animate({
+                     padding: 150,
+                     marginTop: 300
+                  }, 5000 );
+
+
+            });
+
+         });
+
+      </script>
+
+      <script>
+
+         // document.getElementById("caja1").onclick=function(){
+         //
+         //    document.getElementById("caja2").style.backgroundColor="red";
+         //
+         // };
+
+      </script>
+
+
+   </body>
+</html>
