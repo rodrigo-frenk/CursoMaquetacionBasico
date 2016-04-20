@@ -1,0 +1,45 @@
+* {
+   outline: 1px solid #acf;
+   
+}
+
+
+
+
+
+/*   Clases para altura:   */
+
+.h_10vh {
+   /*h10vh*/
+   height: 10vh;
+}
+
+.h_15vh {
+   /*h15vh*/
+   height: 15vh;
+}
+
+.h_75vh {
+   /*h75vh*/
+   height: 75vh;
+}
+
+
+.h_100 {
+   /*h100%*/
+   height: 100%;
+}
+
+
+
+
+
+
+
+
+/* clase para generar scroll: */
+
+.scrollH {
+   /* ovya */
+   overflow-y: auto;
+}
