@@ -1,13 +1,18 @@
 * {
    outline: 1px solid #acf;
-   
+
 }
 
 
 
 
 
-/*   Clases para altura:   */
+/*
+Clases para altura:
+
+vh = viewport height = altura de la ventana
+
+*/
 
 .h_10vh {
    /*h10vh*/
@@ -42,4 +47,19 @@
 .scrollH {
    /* ovya */
    overflow-y: auto;
+}
+
+
+
+
+
+
+
+#portada {
+   position: relative;
+}
+#texto-portada {
+   position: absolute;
+   margin-top: 30vh;
+   background-color: rgba(255,255,255,0.5);
 }
