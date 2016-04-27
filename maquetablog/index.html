@@ -1,138 +1,264 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maqueta Blog</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Maqueta Blog</title>
+   <link rel="stylesheet" href="css/foundation.css">
+   <link rel="stylesheet" href="recursos/css/font-awesome-4.6.1/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
 
 
-      <!-- header#cabecera.row.h_15vh -->
-      <header id="cabecera" class="row h_15vh">
-         Cabecera
-      </header>
+   <!-- header#cabecera.row.h_15vh -->
+   <header id="cabecera" class="row h_15vh">
 
-
-      <!-- main#principal.row.h_75vh.scrollH -->
-      <main id="principal" class="row h_75vh scrollH">
-
-         <!-- section#portada.small-12.columns.h_100 -->
-         <section id="portada" class="small-12 columns h_100">
-
-            <!-- #imagen-portada.small-12.columns.h_100>img -->
-            <div id="imagen-portada" class="small-12 columns h_100">
-               <img src="http://fakeimg.pl/1200x600" alt="" class="small-12 h_100">
-            </div>
-
-            <div id="texto-portada" class="small-12 medium-6 medium-offset-6 columns text-center">
-               <h1>Blog</h1>
-            </div>
-
-         </section>
-
-
-         <!-- section#entradas.small-12.columns -->
-         <section id="entradas" class="small-12 columns">
+      <!-- #logotipo.small-4.medium-3.large-2.columns.h_100>img[src=http://fakeimg.pl/100x60] -->
+      <div id="logotipo" class="small-4 medium-3 large-2 columns h_100">
+         <img src="http://fakeimg.pl/100x60" alt="">
+      </div>
 
 
 
+      <!-- #icono-menu.small-4.small-offset-4.columns.h_100.show-for-small-only.text-right>i.fa.fa-bars.fontXL -->
+      <div id="icono-menu" class="small-4 small-offset-4 columns h_100 show-for-small-only text-right">
+         <i class="fa fa-bars fontXL"></i>
+      </div>
+
+      <!-- nav#menu.medium-9.large-10.columns.h_100.hide-for-small-only -->
+      <nav id="menu" class="medium-9 large-10 columns h_100 hide-for-small-only">
+         <!-- (#menu-item-$.menu-item.medium-3.columns.h_100>a{Menú $})*4 -->
+
+         <div id="menu-item-1" class="menu-item medium-3 columns h_100"><a href="">Menú 1</a></div>
+         <div id="menu-item-2" class="menu-item medium-3 columns h_100"><a href="">Menú 2</a></div>
+         <div id="menu-item-3" class="menu-item medium-3 columns h_100"><a href="">Menú 3</a></div>
+         <div id="menu-item-4" class="menu-item medium-3 columns h_100"><a href="">Menú 4</a></div>
+
+      </nav>
+
+
+   </header>
+
+
+   <!-- main#principal.row.h_75vh.scrollH -->
+   <main id="principal" class="row h_75vh scrollH p0">
+
+      <!-- section#portada.small-12.columns.h_100 -->
+      <section id="portada" class="small-12 columns h_100 p0">
+
+         <!-- #imagen-portada.small-12.columns.h_100>img -->
+         <div id="imagen-portada" class="small-12 columns h_100 p0">
+            <img src="http://fakeimg.pl/1200x600" alt="" class="small-12 h_100">
+         </div>
+
+         <div id="texto-portada" class="small-12 medium-6 medium-offset-6 columns text-center p0">
+            <h1>Blog</h1>
+         </div>
+
+      </section>
+
+
+      <!-- section#entradas.small-12.columns -->
+      <section id="entradas" class="small-12 columns p5">
 
 
 
 
 
 
-            <!-- article#entrada_$.entrada.small-12.medium-6.large-4.columns{Entrada $}*6 -->
-            <article id="entrada_1" class="entrada small-12 medium-6 large-4 columns">
 
-               <!-- header.small-12 -->
-               <header class="small-12">
 
-                  <!-- .titulo.small-12.columns>h3{Título de la Entrada} -->
-                  <div class="titulo small-12 columns">
-                     <h3>Título de la Entrada</h3>
+
+         <!-- article#entrada_$.entrada.small-12.medium-6.large-4.columns{Entrada $}*6 -->
+         <article id="entrada_1" class="entrada small-12 medium-6 large-4 columns p2">
+
+            <!-- header.small-12 -->
+            <header class="small-12 p0">
+
+               <!-- .titulo.small-12.columns>h3{Título de la Entrada} -->
+               <div class="titulo small-12 columns">
+                  <h3>Título de la Entrada</h3>
+               </div>
+
+               <!-- .fecha.small-6.columns{Publicado el 19 de abril, 2016} -->
+               <div class="fecha small-6 columns fontXS">
+                  Publicado el 19 de abril, 2016
+               </div>
+
+               <!-- .autor.small-6.columns -->
+               <div class="autor small-6 columns fontXS">
+
+                  <!-- .nombre-autor.small-9.columns{Nombre del Autor}-->
+                  <!-- .foto-autor.small-3.columns>img[http://fakeimg.pl/100x100] -->
+
+                  <div class="nombre-autor small-9 columns">
+                     Nombre del Autor
+                  </div>
+                  <div class="foto-autor small-3 columns p0">
+                     <img src="http://fakeimg.pl/100x100" alt="Retrato del autor">
                   </div>
 
-                  <!-- .fecha.small-6.columns{Publicado el 19 de abril, 2016} -->
-                  <div class="fecha small-6 columns">
-                     Publicado el 19 de abril, 2016
+
+               </div>
+            </header>
+
+            <!-- .contenido.small-12.columns -->
+            <section class="contenido small-12 columns p1">
+
+               <!-- .imagen.small-4.columns>img[http://fakeimg.pl/300x300] -->
+               <div class="imagen small-12 columns p0">
+                  <img src="http://fakeimg.pl/300x200" alt="">
+               </div>
+               <!-- .extracto.small-8.columns>(p>lorem20)*2 -->
+               <div class="extracto small-12 columns p1 fontS">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis dolor voluptate accusantium, assumenda omnis iure modi voluptatum quod!</p>
+               </div>
+
+            </section>
+
+
+            <!-- footer.small-12.columns -->
+            <footer class="small-12 columns p0">
+
+               <!-- .small-4.small-offset-8.columns>.button{Ver más} -->
+               <div class="small-4 small-offset-8 columns">
+                  <div class="button">Ver más</div>
+               </div>
+
+            </footer>
+
+
+         </article>
+
+
+
+
+         <!-- article#entrada_$.entrada.small-12.medium-6.large-4.columns{Entrada $}*6 -->
+         <article id="entrada_1" class="entrada small-12 medium-6 large-4 columns p2">
+
+            <!-- header.small-12 -->
+            <header class="small-12 p0">
+
+               <!-- .titulo.small-12.columns>h3{Título de la Entrada} -->
+               <div class="titulo small-12 columns">
+                  <h3>Título de la Entrada</h3>
+               </div>
+
+               <!-- .fecha.small-6.columns{Publicado el 19 de abril, 2016} -->
+               <div class="fecha small-6 columns fontXS">
+                  Publicado el 19 de abril, 2016
+               </div>
+
+               <!-- .autor.small-6.columns -->
+               <div class="autor small-6 columns fontXS">
+
+                  <!-- .nombre-autor.small-9.columns{Nombre del Autor}-->
+                  <!-- .foto-autor.small-3.columns>img[http://fakeimg.pl/100x100] -->
+
+                  <div class="nombre-autor small-9 columns">
+                     Nombre del Autor
+                  </div>
+                  <div class="foto-autor small-3 columns p0">
+                     <img src="http://fakeimg.pl/100x100" alt="Retrato del autor">
                   </div>
 
-                  <!-- .autor.small-6.columns -->
-                  <div class="autor small-6 columns">
 
-                     <!-- .nombre-autor.small-9.columns{Nombre del Autor}-->
-                     <!-- .foto-autor.small-3.columns>img[http://fakeimg.pl/100x100] -->
+               </div>
+            </header>
 
-                     <div class="nombre-autor small-9 columns">
-                        Nombre del Autor
-                     </div>
-                     <div class="foto-autor small-3 columns">
-                        <img src="http://fakeimg.pl/100x100" alt="">
-                     </div>
+            <!-- .contenido.small-12.columns -->
+            <section class="contenido small-12 columns p1">
 
+               <!-- .imagen.small-4.columns>img[http://fakeimg.pl/300x300] -->
+               <div class="imagen small-12 columns p0">
+                  <img src="http://fakeimg.pl/300x200" alt="">
+               </div>
+               <!-- .extracto.small-8.columns>(p>lorem20)*2 -->
+               <div class="extracto small-12 columns p1 fontS">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis dolor voluptate accusantium, assumenda omnis iure modi voluptatum quod!</p>
+               </div>
+
+            </section>
+
+
+            <!-- footer.small-12.columns -->
+            <footer class="small-12 columns p0">
+
+               <!-- .small-4.small-offset-8.columns>.button{Ver más} -->
+               <div class="small-4 small-offset-8 columns">
+                  <div class="button">Ver más</div>
+               </div>
+
+            </footer>
+
+
+         </article>
+
+
+
+
+         <!-- article#entrada_$.entrada.small-12.medium-6.large-4.columns{Entrada $}*6 -->
+         <article id="entrada_1" class="entrada small-12 medium-6 large-4 columns p2">
+
+            <!-- header.small-12 -->
+            <header class="small-12 p0">
+
+               <!-- .titulo.small-12.columns>h3{Título de la Entrada} -->
+               <div class="titulo small-12 columns">
+                  <h3>Título de la Entrada</h3>
+               </div>
+
+               <!-- .fecha.small-6.columns{Publicado el 19 de abril, 2016} -->
+               <div class="fecha small-6 columns fontXS">
+                  Publicado el 19 de abril, 2016
+               </div>
+
+               <!-- .autor.small-6.columns -->
+               <div class="autor small-6 columns fontXS">
+
+                  <!-- .nombre-autor.small-9.columns{Nombre del Autor}-->
+                  <!-- .foto-autor.small-3.columns>img[http://fakeimg.pl/100x100] -->
+
+                  <div class="nombre-autor small-9 columns">
+                     Nombre del Autor
                   </div>
-               </header>
-
-               <!-- .contenido.small-12.columns -->
-               <section class="contenido small-12 columns">
-
-                  <!-- .imagen.small-4.columns>img[http://fakeimg.pl/300x300] -->
-                  <div class="imagen small-12 columns">
-                     <img src="http://fakeimg.pl/300x200" alt="">
-                  </div>
-                  <!-- .extracto.small-8.columns>(p>lorem20)*2 -->
-                  <div class="extracto small-12 columns">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis dolor voluptate accusantium, assumenda omnis iure modi voluptatum quod!</p>
-                     <p>Veniam deserunt, repudiandae. Quos, vero. Aperiam vitae, nisi reprehenderit deleniti, est natus iste unde, possimus nobis autem doloremque eum expedita!</p>
+                  <div class="foto-autor small-3 columns p0">
+                     <img src="http://fakeimg.pl/100x100" alt="Retrato del autor">
                   </div>
 
-               </section>
+
+               </div>
+            </header>
+
+            <!-- .contenido.small-12.columns -->
+            <section class="contenido small-12 columns p1">
+
+               <!-- .imagen.small-4.columns>img[http://fakeimg.pl/300x300] -->
+               <div class="imagen small-12 columns p0">
+                  <img src="http://fakeimg.pl/300x200" alt="">
+               </div>
+               <!-- .extracto.small-8.columns>(p>lorem20)*2 -->
+               <div class="extracto small-12 columns p1 fontS">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odio quis dolor voluptate accusantium, assumenda omnis iure modi voluptatum quod!</p>
+               </div>
+
+            </section>
 
 
-               <!-- footer.small-12.columns -->
-               <footer class="small-12 columns">
+            <!-- footer.small-12.columns -->
+            <footer class="small-12 columns p0">
 
-                  <!-- .small-4.small-offset-8.columns>.button{Ver más} -->
-                  <div class="small-4 small-offset-8 columns">
-                     <div class="button">Ver más</div>
-                  </div>
+               <!-- .small-4.small-offset-8.columns>.button{Ver más} -->
+               <div class="small-4 small-offset-8 columns">
+                  <div class="button">Ver más</div>
+               </div>
 
-               </footer>
-
-
-            </article>
+            </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         </section> <!-- #entradas -->
-
-
-      </main> <!--#principal-->
-
-
-
-      <!-- footer#pie-pagina.row.h_10vh -->
-      <footer id="pie-pagina" class="row h_10vh">
-         Pie página
-      </footer>
+         </article>
 
 
 
@@ -146,9 +272,36 @@
 
 
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+
+
+
+      </section> <!-- #entradas -->
+
+
+   </main> <!--#principal-->
+
+
+
+   <!-- footer#pie-pagina.row.h_10vh -->
+   <footer id="pie-pagina" class="row h_10vh">
+      Pie página
+   </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="js/vendor/jquery.js"></script>
+   <script src="js/vendor/what-input.js"></script>
+   <script src="js/vendor/foundation.js"></script>
+   <script src="js/app.js"></script>
+</body>
 </html>

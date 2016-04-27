@@ -1,6 +1,5 @@
 * {
    outline: 1px solid #acf;
-
 }
 
 
@@ -46,6 +45,7 @@ vh = viewport height = altura de la ventana
 
 .scrollH {
    /* ovya */
+   overflow-x: hidden;
    overflow-y: auto;
 }
 
@@ -63,3 +63,90 @@ vh = viewport height = altura de la ventana
    margin-top: 30vh;
    background-color: rgba(255,255,255,0.5);
 }
+
+
+
+
+
+
+.p0 {
+   /*p0px*/
+   padding: 0px;
+}
+
+.p1 {
+   /*p15px*/
+   padding: 15px;
+}
+
+.p2 {
+   /*p30px*/
+   padding: 30px;
+}
+
+.p3 {
+   /*p45px*/
+   padding: 45px;
+}
+
+.p4 {
+   /*p60px*/
+   padding: 60px;
+}
+
+.p5 {
+   /*p75px*/
+   padding: 75px;
+}
+
+
+
+
+
+/* tamaños de tipografia */
+
+.fontXS {
+   /*fz11px*/
+   font-size: 11px;
+}
+
+.fontS {
+   /*fz13px*/
+   font-size: 13px;
+}
+
+.fontM {
+   /*fz15px*/
+   font-size: 15px;
+}
+
+.fontL {
+   /*fz20px*/
+   font-size: 20px;
+}
+
+.fontXL {
+   /*fz28px*/
+   font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
