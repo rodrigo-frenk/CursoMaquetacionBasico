@@ -1,0 +1,33 @@
+article {
+   outline: 1px solid #0cf;
+}
+
+ul {
+   margin: 0;
+}
+
+li {
+   list-style: none;
+}
+
+
+.font_l {
+   /*fz22px*/
+   font-size: 22px;
+}
+
+.font_m {
+   /*fz14px*/
+   font-size: 14px;
+}
+
+
+.font_s {
+   /*fz12px*/
+   font-size: 12px;
+}
+
+.font_xs {
+   /*fz10px*/
+   font-size: 10px;
+}
